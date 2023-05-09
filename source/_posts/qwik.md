@@ -1,5 +1,7 @@
 ---
 title: Qwik
+tags: qwik
+categories: 前端
 ---
 ## Qwik官方文档
 
