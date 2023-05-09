@@ -237,8 +237,9 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+ - /css/global.css
  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css
- - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/shubiao.css
+
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
@@ -493,7 +494,7 @@ index:
 
       # 请求地址
       # Request url
-      url: ""
+      url: "https://v1.hitokoto.cn/?c=d"
 
       # 请求方法
       # Request method
@@ -506,7 +507,7 @@ index:
 
       # 从请求结果获取字符串的取值字段，最终必须是一个字符串，例如返回结果为 {"data": {"author": "fluid", "content": "An elegant theme"}}, 则取值字段为 ['data', 'content']；如果返回是列表则自动选择第一项
       # The value field of the string obtained from the response. For example, the response content is {"data": {"author": "fluid", "content": "An elegant theme"}}, the expected `keys: ['data','content']`; if the return is a list, the first item is automatically selected
-      keys: []
+      keys: ["hitokoto"]
 
   # 自动截取文章摘要
   # Auto extract post
@@ -590,7 +591,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
@@ -1039,12 +1040,6 @@ links:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
     type: disqus
 
-
-# 网站运行时间，格式形如：“本站已安全运行 101 天 12 小时 13 分 41 秒”
-# Runing Time
-running_time:
- enable: true
- create_time: '05/05/2023 8:00:00' #此处修改你的建站时间或者网站上线时间
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
