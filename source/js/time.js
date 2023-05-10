@@ -11,3 +11,10 @@ function createtime() {
     document.getElementById("timeDate").innerHTML = "已经在星海中遨游了 "+dnum+" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
 } 
 setInterval("createtime()",250);
+
+// Hexo 注入代码
+hexo.extend.injector.register('head_begin', '<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">', 'default');
+// Fluid 注入代码
+hexo.extend.filter.register('theme_inject', function(injects) {
+    injects.head.raw('default', '<script src="https://username.github.io/live2d-widget/autoload.js"></script>');
+});

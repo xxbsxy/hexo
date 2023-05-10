@@ -235,6 +235,7 @@ custom_js:
 - /js/time.js
 - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js
 - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/jingtaisidai.js
+- /js/live2d/autoload.js
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
