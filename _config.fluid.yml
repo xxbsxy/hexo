@@ -234,6 +234,7 @@ font:
 custom_js:
 - /js/time.js
 - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js
+- //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/jingtaisidai.js
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
@@ -462,7 +463,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -888,7 +889,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0
 
@@ -899,7 +900,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0
 
@@ -928,7 +929,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 80
   banner_mask_alpha: 0
   tagcloud:
@@ -945,7 +946,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0
   avatar: /img/avatar.png
@@ -967,7 +968,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0
 
@@ -978,7 +979,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 85
   banner_mask_alpha: 0
   # 重定向到首页的延迟(毫秒)
@@ -992,7 +993,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/banner.jpg
+  banner_img: /img/banner.png
   banner_img_height: 60
   banner_mask_alpha: 0
   # 友链的成员项
