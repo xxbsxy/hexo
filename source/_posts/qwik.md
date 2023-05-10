@@ -2,6 +2,7 @@
 title: Qwik
 tags: qwik
 categories: 前端
+sticky: 8
 ---
 ## Qwik官方文档
 
